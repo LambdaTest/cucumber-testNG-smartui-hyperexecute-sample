@@ -40,7 +40,7 @@ dataJsonPath:
     - src/data1.json
     - me/data.json
     - data.json
-jobID: 42e623ed-40fd-4113-82eb-dbf978b639e2
+jobID: 3f5f7185-de83-4f3d-9825-4ac821441f42
 mergeArtifacts: true
 stripParentDirectory: true
 taskIdentifierInNonConflictingArtefacts: true
