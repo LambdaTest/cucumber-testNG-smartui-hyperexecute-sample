@@ -1,0 +1,7 @@
+logs/
+nucleus.log
+snooper.log
+hyperexecute-cli.log
+result.json
+hyperexecute
+.hyperexecute/*

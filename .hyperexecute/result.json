@@ -1,22 +1,22 @@
 {
-    "id": "8b256200-5f72-4a2b-8eaf-dcf59e456219",
-    "created_at": "2023-04-12T12:44:44Z",
-    "update_at": "2023-04-12T12:47:29Z",
+    "id": "3fd10277-1517-49ab-b102-e7da047c34b5",
+    "created_at": "2023-05-09T11:44:07Z",
+    "update_at": "2023-05-09T11:45:22Z",
     "global_timeout": 90,
     "tunnel_name": "",
-    "start_time": "2023-04-12T12:44:59Z",
-    "end_time": "2023-04-12T12:47:29Z",
+    "start_time": "2023-05-09T11:44:21Z",
+    "end_time": "2023-05-09T11:45:22Z",
     "summary": {
-        "total_time": 150000000000,
-        "execution_time": 150000000000,
+        "total_time": 61000000000,
+        "execution_time": 61000000000,
         "total_tasks": 1,
-        "build_time_consumed": 150000000000,
-        "jobTestExecutionTime": "23s",
-        "failed_tasks": 0,
+        "build_time_consumed": 61000000000,
+        "jobTestExecutionTime": "8s",
+        "failed_tasks": 1,
         "total_stage_info": {
             "postrun": {
-                "StageFailedPercent": 0,
-                "StagePassPercent": 100,
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
                 "TotalStage": 1
             },
             "prerun": {
@@ -25,8 +25,8 @@
                 "TotalStage": 1
             },
             "scenario": {
-                "StageFailedPercent": 0,
-                "StagePassPercent": 100,
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
                 "TotalStage": 1
             },
             "test_discovery": {
@@ -35,68 +35,68 @@
                 "TotalStage": 1
             }
         },
-        "status": "completed",
-        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=8b256200-5f72-4a2b-8eaf-dcf59e456219"
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=3fd10277-1517-49ab-b102-e7da047c34b5"
     },
     "tasks": [
         {
-            "id": "53aa54bc-d605-4023-9d7b-436ae597bd86",
+            "id": "e9a65463-114d-44df-b1da-a18998767b22",
             "os": "win",
-            "status": "completed",
-            "remark": "completed",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
             "debug": false,
-            "created_at": "2023-04-12T12:44:58Z",
-            "update_at": "2023-04-12T12:47:29Z",
-            "start_time": "2023-04-12T12:44:59Z",
-            "end_time": "2023-04-12T12:47:29Z",
+            "created_at": "2023-05-09T11:44:20Z",
+            "update_at": "2023-05-09T11:45:22Z",
+            "start_time": "2023-05-09T11:44:21Z",
+            "end_time": "2023-05-09T11:45:22Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "7c409fe1-3387-43bf-a03a-ae3f6ed89051",
+                    "id": "a324db22-ae25-44ba-86ae-3d0dd0d7199f",
                     "type": "prerun",
                     "status": "completed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2023-04-12T12:45:00Z",
-                    "started_at": "2023-04-12T12:45:01Z",
-                    "updated_at": "2023-04-12T12:45:42Z",
+                    "created_at": "2023-05-09T11:44:23Z",
+                    "started_at": "2023-05-09T11:44:24Z",
+                    "updated_at": "2023-05-09T11:44:34Z",
                     "order": 1
                 },
                 {
-                    "id": "c1e2c660-1727-4eb7-aafa-b268b4106025",
+                    "id": "091e865c-2564-4a3a-a712-5b8c32c46d1f",
                     "type": "test_discovery",
                     "status": "completed",
                     "name": "discovery",
                     "iteration": 0,
                     "link": "discovery.log",
-                    "created_at": "2023-04-12T12:45:58Z",
-                    "started_at": "2023-04-12T12:45:59Z",
-                    "updated_at": "2023-04-12T12:46:00Z",
+                    "created_at": "2023-05-09T11:44:49Z",
+                    "started_at": "2023-05-09T11:44:50Z",
+                    "updated_at": "2023-05-09T11:44:51Z",
                     "order": 6
                 },
                 {
-                    "id": "95b42a13-0fe1-408e-b543-587768d9d49a",
+                    "id": "9afbe7cd-e5c0-4633-ba05-ba2ca05061d9",
                     "type": "scenario",
-                    "status": "completed",
+                    "status": "failed",
                     "name": "src/main/java/Features/googlesearch_1.feature:8",
                     "iteration": 0,
                     "link": "command.1.0.log",
-                    "created_at": "2023-04-12T12:46:02Z",
-                    "started_at": "2023-04-12T12:46:04Z",
-                    "updated_at": "2023-04-12T12:47:23Z",
+                    "created_at": "2023-05-09T11:44:53Z",
+                    "started_at": "2023-05-09T11:44:55Z",
+                    "updated_at": "2023-05-09T11:45:20Z",
                     "order": 7
                 },
                 {
-                    "id": "62842bf2-ed63-42fa-81e2-a0b98d0bfe1c",
+                    "id": "cee5d4c9-641b-4447-9790-fe67d394316f",
                     "type": "postrun",
-                    "status": "completed",
+                    "status": "cancelled",
                     "name": "post",
                     "iteration": 0,
-                    "link": "post.log",
-                    "created_at": "2023-04-12T12:46:02Z",
-                    "started_at": "2023-04-12T12:47:25Z",
-                    "updated_at": "2023-04-12T12:47:28Z",
+                    "link": "",
+                    "created_at": "2023-05-09T11:44:53Z",
+                    "started_at": "2023-05-09T11:45:22Z",
+                    "updated_at": "2023-05-09T11:45:22Z",
                     "order": 8
                 }
             ]
