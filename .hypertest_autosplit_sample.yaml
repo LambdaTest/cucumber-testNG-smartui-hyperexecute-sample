@@ -1,0 +1,11 @@
+---
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+autosplit: true
+retryOnFailure: false
+maxRetries: 5
+concurrency: 10
+testDiscoverer: grep -nri 'Scenario:\^|Scenario Outline:' src -ir --include=\*.feature |  awk '{print $1}' | sed 's/\.\///g' | sed 's/\(.*\):/\1 /'
+testRunnerCommand: mvn test `-Dcucumber.options="$test" `-DLT_USERNAME="" `-DLT_ACCESS_KEY=""

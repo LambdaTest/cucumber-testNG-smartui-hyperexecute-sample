@@ -1,0 +1,26 @@
+[{
+	  "user": "user1",
+		"pass": "pass1",
+ 		"url": "https://www.lambdatest.com"
+	},
+	{
+		"user": "user2",
+		"pass": "pass2",
+		"url": "https://www.google.com"
+	},
+	{
+		"user": "user3",
+		"pass": "pass3",
+		"url": "https://www.amazon.com"
+	},
+	{
+		"user": "user4",
+		"pass": "pass4",
+		"url": "https://www.flipkart.com"
+	},
+	{
+		"user": "user5",
+		"pass": "pass5",
+		"url": "https://www.facebook.com"
+	}
+]

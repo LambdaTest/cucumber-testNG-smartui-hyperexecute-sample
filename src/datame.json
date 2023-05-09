@@ -1,0 +1,16 @@
+[{
+	  "user": "mayur1",
+		"pass": "pass1",
+ 		"url": "https://www.lambdatest.com"
+	},
+	{
+		"user": "mayur2",
+		"pass": "pass2",
+		"url": "https://www.google.com"
+	},
+	{
+		"user": "mayur3",
+		"pass": "pass3",
+		"url": "https://www.amazon.com"
+	}
+]
