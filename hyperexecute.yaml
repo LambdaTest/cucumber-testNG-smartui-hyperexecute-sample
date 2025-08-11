@@ -7,19 +7,10 @@ autosplit: true
 retryOnFailure: false
 maxRetries: 2
 concurrency: 5
-# testRunnerCommand: mvn test -Dcucumber.options="$test" -Dscenario="$test" -Dmaven.repo.local=m2_cache_dir
 testRunnerCommand: mvn test `-Dcucumber.options="$test" `-Dscenario="$test" `-Dmaven.repo.local=m2_cache_dir
 dataJsonPath: ['src/datame.json', 'src/data1.json','me/data.json', 'data.json']
 debug: false
 pre:
-  # - ping google.com
-  # - ping lambdatest.com
-  # - ping cloudfare.com
-  # - dotnet --version
-  # - dotnet --list-sdks
-  # - python --version
-  # - curl -o local.html http://127.0.0.1:8000/
-  # - cat local.html
   - pwd
   - echo ${PAT}
   - echo ${qa}
@@ -29,55 +20,20 @@ pre:
   - cat key.txt
   - mvn compile
   - cat longlogs.txt
-  # - mvn -Dmaven.repo.local=m2_cache_dir -Dmaven.test.skip=true install
-# betaFeature:
-#    setPartiallyCompletedAsCompleted: true
+
 env:
-   qa: "Muralee"
-  #  PAT: ${{ .secrets.key }}
+   qa: "smartui-test"
 testType: "taiko"
-# uploadArtefacts:
-#  - name: Files
-#    path:
-#      - Files/**
-#  - name: src
-#    path:
-#      - src/**
 mergeArtifacts: true
 stripParentDirectory: true
 taskIdentifierInNonConflictingArtefacts: true
 post:
-  # - curl -o local2.html http://127.0.0.1:8000/
-  # - cat local2.html
-  # - cat longlogs.txt
   - cat hyperexecute.yaml
   - cat longlogs.txt
-jobLabel: [ 'HYP-2923', 'HYP-3554', 'HYP-3555','muralee', 'smartUI']
+jobLabel: [ 'smartUI']
 version: "0.1"
 testDiscovery:
   type: raw
   mode: static
-  # command: cat example.txt
-  # command: snooper --featureFilePaths=src/main/**/ --frameWork=java --specificTags=@data1 | sed -n 1,'4p' #@data2 @data3 @data4 @data5
   command: snooper --featureFilePaths=src/main/**/ --frameWork=java --query="@Addition AND @me"| sed -n 1,'5p'
-# tunnel: true
-# tunnelNames: ["mayur"]
-# tunnelOpts:
-#   global: true
-# cacheKey: '{{ checksum "pom.xml" }}'
-# cacheDirectories:
-#   - m2_cache_dir
-# runtime:
-  # language: python
-  # version: 3.10.7
-  # language: dotnet
-  # version: "7.0.100-preview.6.22352.1"
-  # include-prerelease: true
-  # language: dotnet
-  # version: "6.0.303"
-#    language: java
-#    version: "17"
-   # language: python
-   # version: "3.8"
-   # language: node
-   # version: "16"
+
