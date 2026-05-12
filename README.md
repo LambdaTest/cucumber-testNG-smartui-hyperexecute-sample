@@ -1,4 +1,4 @@
-# cucumber-testNG-smartui-hyperexecute-sample — TestMu AI (Formerly LambdaTest)
+# cucumber-testNG-smartui-hyperexecute-sample — TestMu AI (Formerly LambdaTest)
 
 
 ### Steps to execute HyperExecute test with smartui feature
