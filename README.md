@@ -13,7 +13,7 @@
 With TestMu AI (Formerly LambdaTest), you can run Cucumber TestNG tests with SmartUI visual regression on the HyperExecute cloud for blazing-fast distributed execution. This sample shows how to configure HyperExecute to run Cucumber TestNG SmartUI tests on the TestMu AI cloud.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/getting-started-with-hyperexecute/) for the full setup walkthrough.
+- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
 
 ### Prerequisites
 
